@@ -9,7 +9,14 @@ repositories {
     mavenCentral()
 }
 
+ext{
+    springVertion = '6.0.7'
+}
+
 dependencies {
+    implementation "org.springframework:spring-core:${springVertion}"
+    implementation "org.springframework:spring-context:${springVertion}"
+    implementation "org.springframework:spring-jdbc:${springVertion}"
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
     testImplementation 'org.hamcrest:hamcrest:2.2'
