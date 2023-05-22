@@ -4,6 +4,8 @@
     <title>Hello</title>
 </head>
 <body>
-Hi ${user.name}
+<h1>
+    Error !!! : ${e.message}
+</h1>
 </body>
 </html>
